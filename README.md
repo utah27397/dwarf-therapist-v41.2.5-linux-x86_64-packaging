@@ -12,6 +12,30 @@ as a fixed forked source submodule at `upstream/dwarf-therapist`.
 - Fixed commit: `b488cb2b69ba4eb2fedd63ef416e90ca5697326c`
 - Original project: https://github.com/Dwarf-Therapist/Dwarf-Therapist
 
+## Quick Start
+
+Download and install the latest release:
+
+```sh
+curl -LO 'https://github.com/utah27397/dwarf-therapist-v41.2.5-linux-x86_64-packaging/releases/latest/download/dwarf-therapist-v41.2.5_41.2.5-1df04705.1_amd64.deb'
+sudo apt install './dwarf-therapist-v41.2.5_41.2.5-1df04705.1_amd64.deb'
+```
+
+Run Dwarf Therapist:
+
+```sh
+dwarftherapist
+```
+
+Build locally instead:
+
+```sh
+git clone --recursive https://github.com/utah27397/dwarf-therapist-v41.2.5-linux-x86_64-packaging.git
+cd dwarf-therapist-v41.2.5-linux-x86_64-packaging
+make build
+sudo apt install '../dwarf-therapist-v41.2.5_41.2.5-1df04705.1_amd64.deb'
+```
+
 ## Build
 
 ```sh
