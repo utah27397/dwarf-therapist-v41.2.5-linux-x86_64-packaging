@@ -1,0 +1,9 @@
+Package: dwarf-therapist-v41.2.5
+Version: 41.2.5-1df04705.1
+Section: games
+Priority: optional
+Architecture: amd64
+Maintainer: utah27397 <302294215+utah27397@users.noreply.github.com>
+Depends: libc6, libgcc-s1 | libgcc1, libstdc++6, libqt5core5t64, libqt5gui5t64, libqt5network5t64, libqt5qml5, libqt5widgets5t64
+Description: Dwarf Therapist 41.2.5 for Dwarf Fortress 0.47.05
+ Source-built Dwarf Therapist 41.2.5 package from a fixed forked source.

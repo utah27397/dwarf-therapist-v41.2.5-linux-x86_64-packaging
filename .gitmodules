@@ -1,0 +1,4 @@
+[submodule "upstream/dwarf-therapist"]
+	path = upstream/dwarf-therapist
+	url = https://github.com/utah27397/Dwarf-Therapist.git
+	branch = packaging/v41.2.5
