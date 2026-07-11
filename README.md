@@ -22,6 +22,11 @@ make build
 The package installs Dwarf Therapist into the normal Linux filesystem under
 `/usr`, using upstream's CMake install rules.
 
+## Latest Release
+
+Download the current Debian package from the
+[latest GitHub release](https://github.com/utah27397/dwarf-therapist-v41.2.5-linux-x86_64-packaging/releases/latest).
+
 ## Related Repositories
 
 - [Dwarf Fortress 0.47.05 Linux x86_64 packaging](https://github.com/utah27397/dwarf-fortress-0.47.05-linux-x86_64-packaging)
