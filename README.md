@@ -14,7 +14,19 @@ as a fixed forked source submodule at `upstream/dwarf-therapist`.
 
 ## Quick Start
 
-Download and install the latest release:
+Install from the shared APT repository:
+
+```sh
+curl -fsSL https://utah27397.github.io/dwarf-fortress-0.47.05-apt-repository/df04705-packaging.sources \
+  -o /tmp/df04705-packaging.sources
+sudo install -o root -g root -m 0644 /tmp/df04705-packaging.sources \
+  /etc/apt/sources.list.d/df04705-packaging.sources
+rm /tmp/df04705-packaging.sources
+sudo apt-get update
+sudo apt-get install dwarf-therapist-v41.2.5
+```
+
+Alternatively, download and install the latest release directly:
 
 ```sh
 curl -LO 'https://github.com/utah27397/dwarf-therapist-v41.2.5-linux-x86_64-packaging/releases/latest/download/dwarf-therapist-v41.2.5_41.2.5-1df04705.1_amd64.deb'
